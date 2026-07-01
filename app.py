@@ -76,15 +76,13 @@ def main():
     else:
         st.subheader("About")
         st.write("""
-            This book recommendation system was developed as part of the CFG Degree Summer 2024 group project.
-            Our aim is to provide users with personalised book suggestions based on their interests and preferences.
-            We hope you find your next great read!
+            A personalised book recommendation web app built with Python and Streamlit, developed as an individual project after completing the NLP course. 
+            The system analyses book reviews using Natural Language Processing (NLP) to recommend books based on a user's preferred genre and keywords. 
+            It combines sentiment analysis and topic modelling to rank and surface the most relevant books.
 
-            **Project Team Members:**
-            - Eva Morris
-            - Wing Hang
-            - Srivatsala K A
-            - Swarna Dharshini S
+
+            **Project By:**
+            M. Siva Subramaniyen
         """)
 
 
